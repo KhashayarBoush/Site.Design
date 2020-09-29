@@ -22,57 +22,73 @@ body{
 #box1{
    width: 30%;
    height: 30%;
-   background-color: violet;
-   top: 1%;
+   background-image: url("image/nord.jpg");
+   background-position: center;
+   background-size: 350px;
+   top: 5%;
    left:5%;
    position: relative;
-   border: 1px solid white;
+   /*border: 1px solid white;*/
 
 }
 #box2{
    width: 30%;
    height: 30%;
    background-color: violet;
-   top: 1%;
+   top: 5%;
    left:35%;
    position: relative;
-   border: 1px solid white;
+   /*border: 1px solid white;*/
 
 }
 #box3{
    width: 30%;
    height: 30%;
    background-color: violet;
-   top: -60%;
-   left:65.2%;
+   top: -55%;
+   left:65%;
    position: relative;
-   border: 1px solid white;
+   /*border: 1px solid white;*/
 
 }
 #box4{
    width: 30%;
    height: 30%;
    background-color: violet;
-   top: -30%;
+   top: -25%;
    left:5%;
    position: relative;
-   border: 1px solid white;
+   /*border: 1px solid white;*/
 
 }
 #box5{
    width: 30%;
    height: 30%;
    background-color: violet;
-   top: -60%;
-   left:65.2%;
+   top: -55%;
+   left:65%;
    position: relative;
-   border: 1px solid white;
+   /*border: 1px solid white;*/
 
 }
 #footer {
    background-color: blueviolet;
-   width: 100%;
+   width: 90%;
    height: 5%;
    margin: 2% auto 0;
    clear: both;
+}
+.detail{
+   font-style: italic;
+   font-family: Arial, Helvetica, sans-serif;
+   color:white;
+   background-color: black;
+   opacity: 0.5;
+   padding: 5%;
+   border: 3px solid white;
+   width: 70%;
+   margin: 0 auto 0;
+   transition: 3s;
+   position: relative;
+   top: 2%;
 }
